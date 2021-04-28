@@ -25,10 +25,6 @@ public class Task1 {
 
     }
 
-    public void myFunc3(MyFunc<?> myFunc3) {
-        myFunc3.testFunc(5,3);
-    }
-
 
 
     public static <T> void testFunc(MyFunc<T> f, int v1, int v2) {
